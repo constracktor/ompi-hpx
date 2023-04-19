@@ -10,8 +10,8 @@
 # $HEADER$
 #
 
-# Highest priority, as it's the default
-AC_DEFUN([MCA_ompi_rte_orte_PRIORITY], [100])
+# Low priority, as HPX is the default
+AC_DEFUN([MCA_ompi_rte_orte_PRIORITY], [10])
 
 # Force this component to compile in static-only mode
 AC_DEFUN([MCA_ompi_rte_orte_COMPILE_MODE], [
